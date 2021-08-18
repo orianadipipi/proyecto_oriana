@@ -1,0 +1,48 @@
+
+body{
+    background-color: #D4C8BC;
+}
+/* Barra de Navegacion */
+.navbar{
+    margin:2px;
+}
+.img-fluid{
+    height: 45px;
+    margin: 2px;
+    }
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+}
+.navbar-light .navbar-toggler {
+    border-color: #f1f1f1;
+}
+li a {
+    color: rgb(230, 230, 245);
+}
+
+/* SECTION DOS */
+.sectionDos{
+    margin: 12.8% 0;
+    display: grid;
+    place-items: right;
+}
+.light-container{
+    background-color: #E8E2DB;
+}
+.imagenCollar{
+    position: relative;
+    z-index: 2;
+}
+.imagenAro{
+    position: relative;
+    z-index: 1;
+    margin-top: -700px;
+    margin-left: 200px;
+}
+/* SECTION TRES */
+.sectionTres{
+    display: grid;
+    place-content: end;
+}
